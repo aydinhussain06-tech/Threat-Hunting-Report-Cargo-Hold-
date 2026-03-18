@@ -23,7 +23,7 @@ After an attacker establised initial access on November 19th, network monitoring
 
 ### 1. Searched the `DeviceLogonEvents` Table to find the source IP of the return connection and compromised file server
 
-The source IP of the return connection is 159.26.106.98, as shown in the result logs. It is in the Remote IP field. The known breached account name is “kenji.sato” from part 1. Azuki was the given DeviceName field. The compromised file server is azuki-fileserver01. Although the logon failed, the bad actor still attempted to log into this.
+The source IP of the return connection is 159.26.106.98, as shown in the result logs. It is in the Remote IP field. The known breached account name is “kenji.sato”. Azuki was the given DeviceName field. The compromised file server is azuki-fileserver01. Although the logon failed, the bad actor still attempted to log into this.
 
 **Query used to locate events:**
 
